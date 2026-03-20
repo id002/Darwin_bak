@@ -7,9 +7,9 @@
 #!category=🍟 Fries
 
 [Script]
-🍟 Disney+ Response = type=http-response,pattern=^https?:\/\/disney\.api\.edge\.bamgrid\.com\/(session|(graph\/)?v1\/(public|device)\/graphql), requires-body=1, binary-body-mode=0, max-size=0 ,script-update-interval=0, argument=, script-path=https://github.com/ifflagged/Darwin/raw/main/Modules/JS/VirgilClyne/Disney+/Disney%2B.js
-🍟 Disney+ Request = type=http-request,pattern=^https?:\/\/disney\.content\.edge\.bamgrid\.com\/svc, requires-body=0, binary-body-mode=0, max-size=0 ,script-update-interval=0, argument=, script-path=https://github.com/ifflagged/Darwin/raw/main/Modules/JS/VirgilClyne/Disney+/Disney%2B.js
-# 🍟 Disney+ Response = type=http-response,pattern=^https?:\/\/disney\.content\.edge\.bamgrid\.com\/(svc\/content\/DmcVideo), requires-body=1, binary-body-mode=0, max-size=0 ,script-update-interval=0, argument=, script-path=https://github.com/ifflagged/Darwin/raw/main/Modules/JS/VirgilClyne/Disney+/Disney%2B.js
+🍟 Disney+ Response = type=http-response,pattern=^https?:\/\/disney\.api\.edge\.bamgrid\.com\/(session|(graph\/)?v1\/(public|device)\/graphql), requires-body=1, binary-body-mode=0, max-size=0 ,script-update-interval=0, argument=, script-path=https://github.com/id002/Darwin_bak/raw/main/Modules/JS/VirgilClyne/Disney+/Disney%2B.js
+🍟 Disney+ Request = type=http-request,pattern=^https?:\/\/disney\.content\.edge\.bamgrid\.com\/svc, requires-body=0, binary-body-mode=0, max-size=0 ,script-update-interval=0, argument=, script-path=https://github.com/id002/Darwin_bak/raw/main/Modules/JS/VirgilClyne/Disney+/Disney%2B.js
+# 🍟 Disney+ Response = type=http-response,pattern=^https?:\/\/disney\.content\.edge\.bamgrid\.com\/(svc\/content\/DmcVideo), requires-body=1, binary-body-mode=0, max-size=0 ,script-update-interval=0, argument=, script-path=https://github.com/id002/Darwin_bak/raw/main/Modules/JS/VirgilClyne/Disney+/Disney%2B.js
 
 [MITM]
 hostname = %APPEND% disney.api.edge.bamgrid.com, disney.content.edge.bamgrid.com
